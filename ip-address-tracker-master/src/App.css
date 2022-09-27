@@ -1,5 +1,23 @@
+
 .App {
   text-align: center;
 }
 
 
+
+.white__box{
+  z-index: 9999;
+}
+.leaflet__map{
+  width: 100vw;
+  height: calc(100vh - 244px);
+  margin-top: 92px;
+}
+
+
+@media (min-width: 768px) {
+  .leaflet__map{
+    height: calc(100vh - 232px);
+    margin-top: 0;
+  }
+}
